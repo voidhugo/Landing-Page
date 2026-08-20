@@ -1,0 +1,423 @@
+/* =========================================
+JOIAS KA JOIAS - CUSTOM CSS
+========================================= */
+
+/* Cores da marca */
+:root {
+    --amarelo: #FFF31D;
+    --rosa: #DE50BA;
+    --azul: #31A7D1;
+    --roxo: #561796;
+    --branco: #FFFFFF;
+    --escuro: #17121d;
+    }
+    
+    /* Configurações gerais */
+    * {
+    box-sizing: border-box;
+    }
+    
+    body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--branco);
+    color: var(--escuro);
+    }
+    
+    /* =========================================
+    NAVBAR
+    ========================================= */
+    
+    .navbar {
+    background: linear-gradient(
+    90deg,
+    var(--roxo),
+    var(--rosa)
+    ) !important;
+    
+    padding: 15px 20px;
+    }
+    
+    .navbar-brand {
+    color: var(--branco) !important;
+    font-size: 1.4rem;
+    font-weight: bold;
+    }
+    
+    .navbar-brand:hover {
+    color: var(--amarelo) !important;
+    }
+    
+    .navbar .nav-link {
+    color: var(--branco) !important;
+    font-weight: 500;
+    margin: 3px 5px;
+    border-radius: 8px;
+    transition: 0.3s;
+    }
+    
+    .navbar .nav-link:hover {
+    background-color: var(--amarelo);
+    color: var(--roxo) !important;
+    }
+    
+    /* Botão do menu mobile */
+    .navbar-toggler {
+    border-color: var(--branco);
+    }
+    
+    .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+    }
+    
+    /* =========================================
+    HERO
+    ========================================= */
+    
+    .hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(
+    135deg,
+    var(--roxo),
+    var(--rosa),
+    var(--azul)
+    );
+    color: var(--branco);
+    padding: 60px 20px;
+    }
+    
+    .hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+    
+    .hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin-bottom: 30px;
+    }
+    
+    /* =========================================
+    BOTÕES
+    ========================================= */
+    
+    .btn-primary {
+    background-color: var(--amarelo) !important;
+    border-color: var(--amarelo) !important;
+    color: var(--roxo) !important;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 25px;
+    transition: 0.3s;
+    }
+    
+    .btn-primary:hover {
+    background-color: var(--branco) !important;
+    border-color: var(--branco) !important;
+    color: var(--roxo) !important;
+    transform: translateY(-2px);
+    }
+    
+    .btn-whatsapp {
+    background-color: var(--rosa);
+    border: none;
+    color: var(--branco);
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    }
+    
+    .btn-whatsapp:hover {
+    background-color: var(--roxo);
+    color: var(--branco);
+    transform: translateY(-2px);
+    }
+    
+    /* =========================================
+    TÍTULOS DAS SEÇÕES
+    ========================================= */
+    
+    section {
+    padding: 60px 20px;
+    }
+    
+    section h2 {
+    color: var(--roxo);
+    font-weight: bold;
+    margin-bottom: 15px;
+    }
+    
+    .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    }
+    
+    .section-title h2 {
+    font-size: 2rem;
+    }
+    
+    .section-title p {
+    color: #666;
+    }
+    
+    /* =========================================
+    CARDS DE PRODUTOS
+    ========================================= */
+    
+    .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(86, 23, 150, 0.12);
+    transition: 0.3s;
+    height: 100%;
+    }
+    
+    .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(86, 23, 150, 0.25);
+    }
+    
+    .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    }
+    
+    .card-body {
+    padding: 20px;
+    }
+    
+    .card-title {
+    color: var(--roxo);
+    font-weight: bold;
+    }
+    
+    .card-text {
+    color: #555;
+    }
+    
+    .card .price {
+    color: var(--rosa);
+    font-size: 1.3rem;
+    font-weight: bold;
+    }
+    
+    /* =========================================
+    BADGES
+    ========================================= */
+    
+    .badge {
+    padding: 7px 10px;
+    border-radius: 15px;
+    }
+    
+    .badge-promocao {
+    background-color: var(--amarelo);
+    color: var(--roxo);
+    }
+    
+    .badge-novo {
+    background-color: var(--azul);
+    color: var(--branco);
+    }
+    
+    .badge-destaque {
+    background-color: var(--rosa);
+    color: var(--branco);
+    }
+    
+    /* =========================================
+    SOBRE A EMPRESA
+    ========================================= */
+    
+    .sobre {
+    background-color: #fafafa;
+    }
+    
+    .sobre img {
+    max-width: 100%;
+    border-radius: 15px;
+    }
+    
+    .sobre h2 {
+    color: var(--roxo);
+    }
+    
+    .sobre p {
+    line-height: 1.7;
+    }
+    
+    /* =========================================
+    CONTATO
+    ========================================= */
+    
+    .contato {
+    background-color: var(--branco);
+    }
+    
+    .contato .card {
+    border-top: 5px solid var(--azul);
+    }
+    
+    .contato a {
+    color: var(--roxo);
+    text-decoration: none;
+    }
+    
+    .contato a:hover {
+    color: var(--rosa);
+    }
+    
+    /* =========================================
+    FORMULÁRIOS
+    ========================================= */
+    
+    .form-control,
+    .form-select {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 11px;
+    }
+    
+    .form-control:focus,
+    .form-select:focus {
+    border-color: var(--rosa);
+    box-shadow: 0 0 0 0.2rem rgba(222, 80, 186, 0.2);
+    }
+    
+    /* =========================================
+    FAQ
+    ========================================= */
+    
+    .accordion-button {
+    font-weight: bold;
+    color: var(--roxo);
+    }
+    
+    .accordion-button:not(.collapsed) {
+    background-color: var(--rosa);
+    color: var(--branco);
+    }
+    
+    .accordion-button:focus {
+    box-shadow: none;
+    }
+    
+    /* =========================================
+    DASHBOARD
+    ========================================= */
+    
+    .dashboard {
+    background-color: #f7f7f7;
+    min-height: 80vh;
+    }
+    
+    .dashboard .card {
+    border-top: 5px solid var(--roxo);
+    }
+    
+    .dashboard .card h3 {
+    color: var(--roxo);
+    }
+    
+    /* =========================================
+    FOOTER
+    ========================================= */
+    
+    footer {
+    background: linear-gradient(
+    90deg,
+    var(--roxo),
+    var(--rosa)
+    );
+    color: var(--branco);
+    padding: 35px 20px;
+    }
+    
+    footer h5 {
+    font-weight: bold;
+    }
+    
+    footer a {
+    color: var(--branco);
+    text-decoration: none;
+    }
+    
+    footer a:hover {
+    color: var(--amarelo);
+    }
+    
+    /* =========================================
+    RESPONSIVIDADE - MOBILE FIRST
+    ========================================= */
+    
+    /* Celulares */
+    @media (max-width: 575px) {
+    
+    .hero {
+    min-height: 75vh;
+    padding: 50px 20px;
+    text-align: center;
+    }
+    
+    .hero h1 {
+    font-size: 2rem;
+    }
+    
+    .hero p {
+    font-size: 1rem;
+    }
+    
+    section {
+    padding: 45px 15px;
+    }
+    
+    section h2 {
+    font-size: 1.7rem;
+    }
+    
+    .card img {
+    height: 200px;
+    }
+    
+    .navbar {
+    padding: 12px 15px;
+    }
+    
+    .btn-primary,
+    .btn-whatsapp {
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    }
+    
+    /* Tablets */
+    @media (min-width: 576px) {
+    
+    .hero h1 {
+    font-size: 3rem;
+    }
+    }
+    
+    /* Computadores */
+    @media (min-width: 992px) {
+    
+    .hero {
+    min-height: 80vh;
+    }
+    
+    .hero h1 {
+    font-size: 3.5rem;
+    }
+    
+    section {
+    padding: 80px 30px;
+    }
+    }
