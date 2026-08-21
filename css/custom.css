@@ -1,6 +1,4 @@
-/* =========================================
-JOIAS KA JOIAS - CUSTOM CSS
-========================================= */
+/* K.Artes */
 
 /* Cores da marca */
 :root {
@@ -24,9 +22,7 @@ JOIAS KA JOIAS - CUSTOM CSS
     color: var(--escuro);
     }
     
-    /* =========================================
-    NAVBAR
-    ========================================= */
+    /* NAVBAR */
     
     .navbar {
     background: linear-gradient(
@@ -70,9 +66,7 @@ JOIAS KA JOIAS - CUSTOM CSS
     filter: brightness(0) invert(1);
     }
     
-    /* =========================================
-    HERO
-    ========================================= */
+    /* HERO */
     
     .hero {
     min-height: 70vh;
@@ -99,10 +93,8 @@ JOIAS KA JOIAS - CUSTOM CSS
     max-width: 600px;
     margin-bottom: 30px;
     }
-    
-    /* =========================================
-    BOTÕES
-    ========================================= */
+  
+    /* BOTÕES */
     
     .btn-primary {
     background-color: var(--amarelo) !important;
@@ -139,9 +131,7 @@ JOIAS KA JOIAS - CUSTOM CSS
     transform: translateY(-2px);
     }
     
-    /* =========================================
-    TÍTULOS DAS SEÇÕES
-    ========================================= */
+    /* TÍTULOS DAS SEÇÕES */
     
     section {
     padding: 60px 20px;
@@ -166,9 +156,7 @@ JOIAS KA JOIAS - CUSTOM CSS
     color: #666;
     }
     
-    /* =========================================
-    CARDS DE PRODUTOS
-    ========================================= */
+    /* CARDS DE PRODUTOS */
     
     .card {
     border: none;
@@ -209,10 +197,8 @@ JOIAS KA JOIAS - CUSTOM CSS
     font-weight: bold;
     }
     
-    /* =========================================
-    BADGES
-    ========================================= */
-    
+    /* BADGES */
+   
     .badge {
     padding: 7px 10px;
     border-radius: 15px;
@@ -232,10 +218,8 @@ JOIAS KA JOIAS - CUSTOM CSS
     background-color: var(--rosa);
     color: var(--branco);
     }
-    
-    /* =========================================
-    SOBRE A EMPRESA
-    ========================================= */
+       
+    /* SOBRE A EMPRESA */
     
     .sobre {
     background-color: #fafafa;
@@ -254,10 +238,8 @@ JOIAS KA JOIAS - CUSTOM CSS
     line-height: 1.7;
     }
     
-    /* =========================================
-    CONTATO
-    ========================================= */
-    
+    /* CONTATO */
+ 
     .contato {
     background-color: var(--branco);
     }
@@ -275,9 +257,7 @@ JOIAS KA JOIAS - CUSTOM CSS
     color: var(--rosa);
     }
     
-    /* =========================================
-    FORMULÁRIOS
-    ========================================= */
+  /* FORMULÁRIOS */ 
     
     .form-control,
     .form-select {
@@ -292,9 +272,7 @@ JOIAS KA JOIAS - CUSTOM CSS
     box-shadow: 0 0 0 0.2rem rgba(222, 80, 186, 0.2);
     }
     
-    /* =========================================
-    FAQ
-    ========================================= */
+    /* FAQ */
     
     .accordion-button {
     font-weight: bold;
@@ -310,9 +288,7 @@ JOIAS KA JOIAS - CUSTOM CSS
     box-shadow: none;
     }
     
-    /* =========================================
-    DASHBOARD
-    ========================================= */
+    /* DASHBOARD */
     
     .dashboard {
     background-color: #f7f7f7;
@@ -327,10 +303,8 @@ JOIAS KA JOIAS - CUSTOM CSS
     color: var(--roxo);
     }
     
-    /* =========================================
-    FOOTER
-    ========================================= */
-    
+    /* FOOTER */
+   
     footer {
     background: linear-gradient(
     90deg,
@@ -354,9 +328,8 @@ JOIAS KA JOIAS - CUSTOM CSS
     color: var(--amarelo);
     }
     
-    /* =========================================
-    RESPONSIVIDADE - MOBILE FIRST
-    ========================================= */
+    /* RESPONSIVIDADE - MOBILE FIRST */
+
     
     /* Celulares */
     @media (max-width: 575px) {
